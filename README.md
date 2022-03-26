@@ -41,7 +41,19 @@ Create conda environment with all necessary tools installed by:
 
 Install extra R libraries that are not present in conda or have trouble working:
 
-    TODO 
+- seurat-disk:
+
+      if (!requireNamespace("remotes", quietly = TRUE)) {
+        install.packages("remotes")
+      }
+      remotes::install_github("mojaveazure/seurat-disk")
+ 
+- signac:
+
+      if (!requireNamespace("BiocManager", quietly = TRUE))
+          install.packages("BiocManager")
+      BiocManager::install()
+      setRepositories(ind=1:2)
 
 
 ### Modify config files
