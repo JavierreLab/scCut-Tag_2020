@@ -48,7 +48,7 @@ Install extra R libraries that are not present in conda or have trouble working:
       }
       remotes::install_github("mojaveazure/seurat-disk")
  
-- signac:
+- signac (while doing so R may ask to update all: say yes):
 
       if (!requireNamespace("BiocManager", quietly = TRUE))
           install.packages("BiocManager")
