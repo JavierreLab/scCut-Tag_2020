@@ -2,6 +2,7 @@
 ._*
 .nfs*
 *.sam
+*.sif
 *.bam
 *.html
 *.Rhistory

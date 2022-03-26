@@ -20,9 +20,9 @@ dependencies:
   - snakemake
   - pygenometracks
   - tqdm
-  - r-base=3.6.3
-  - r-seurat=3.1.5
-  - r-dplyr=0.8.5
+  - r-base=4          #  3.6.3
+  - r-seurat          # =3.1.5
+  - r-dplyr           # =0.8.5
   - r-argparse
   - r-viridis
   - r-devtools
